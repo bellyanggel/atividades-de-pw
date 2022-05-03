@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor</title>
+</head>
+<body>
+    <?php
+        print "<h2> Atividade - Funções </h2>";
+        /*
+        Desenvolver função de somas básico com os seguintes nomes respectivamente:
+        Adição;
+        Subtração;
+        Multiplicação;
+        Divisão;
+
+        Com  dois valores de entrada (argumentos), 
+        e utilizar o returno(return) para jogar o valor no script principal.
+        */
+
+        print "<h3> Adição </h3>";
+        function Adicao($arg, $arg2) {
+            $resultado = $arg + $arg2;
+            return $resultado; 
+        }
+        $v = Adicao(21, 17);
+        echo $v;
+        echo "<br>";
+        echo Adicao(2001, 2005);
+
+        print "<h3> Subtração </h3>";
+        function Sub($arg, $arg2) {
+            $resultado = $arg - $arg2;
+            return $resultado; 
+        }
+        $p = Sub(21, 17);
+        echo $p;
+        echo "<br>";
+        echo Sub(2001, 2005);
+
+        print "<h3> Multiplicação </h3>";
+        function Mult($arg, $arg2) {
+            $resultado = $arg * $arg2;
+            return $resultado; 
+        }
+        $b = Mult(21, 17);
+        echo $b;
+        echo "<br>";
+        echo Mult(2001, 2005);
+
+        print "<h3> Divisão </h3>";
+        function Divisao($arg, $arg2) {
+            $resultado = $arg / $arg2;
+            return $resultado; 
+        }
+        $i = Divisao(21, 17);
+        echo $i;
+        echo "<br>";
+        echo Divisao(2001, 2005);
+    ?>
+</body>
+</html>
